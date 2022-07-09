@@ -1,0 +1,57 @@
+# Automatically log in to this mailbox at startup
+set folder='imaps://imap.qq.com/'
+set imap_user='foobar@qq.com'
+set imap_pass='foobar'
+set spoolfile='+收件箱'
+#set mailboxes='+收件箱'
+set my_name = 'foobar'
+set postponed =  '+草稿箱'
+set record = '+已发送'
+set imap_keepalive = 300
+unset imap_passive
+set mail_check = 120
+
+# Maildir
+set mbox_type=Maildir
+set folder=~/mail
+set spoolfile=+/
+set header_cache=~/.cache/mutt
+
+set imap_check_subscribed
+
+# Vim like keybinds
+bind pager j next-line
+bind pager k previous-line
+
+set editor="/usr/bin/nvim"
+
+
+
+
+
+
+
+
+
+
+
+
+# SMTP
+
+set my_pass='foobar'
+set my_user='foobar@qq.com'
+
+set realname = 'foobar'
+set from = foobar@qq.com
+set use_from = yes
+
+set smtp_pass = $my_pass
+set smtp_url=smtps://$my_user@smtp.qq.com
+set ssl_force_tls = yes
+set ssl_starttls = no
+
+set smtp_authenticators = "login"
+
+#set sendmail="/usr/bin/msmtp"
+#set edit_headers=yes
+
