@@ -1,0 +1,13 @@
+[user]
+	email = mike2718@gmail.com
+	name = Mike Akiba
+	signingkey = 17C22010D29A50BC
+[pull]
+	ff = only
+[init]
+	defaultBranch = main
+[commit]
+	gpgsign = true
+
+[http]
+	proxy = http://127.0.0.1:7890
